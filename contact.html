@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Programări | ClearSmile Dental</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            ClearSmile
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="tratamente.html">Tratamente</a></li>
+            <li><a href="despre-noi.html">Despre Noi</a></li>
+            <li><a href="info-pacienti.html">Info Pacienți</a></li>
+            <li><a href="recenzii.html">Recenzii</a></li>
+            <li><a href="contact.html" class="btn-appointment">Programare</a></li>
+        </ul>
+    </nav>
+
+    <section class="container hero" style="min-height: auto; padding: 4rem 5%;">
+        <div class="hero-content">
+            <h2>Ești la un pas de zâmbetul tău ideal</h2>
+            <p>Completează formularul de mai jos și echipa noastră te va contacta în cel mai scurt timp pentru a confirma programarea.</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div style="display: flex; flex-wrap: wrap; gap: 4rem;">
+            <div style="flex: 1.5; min-width: 320px;">
+                <div class="card">
+                    <h3 style="margin-bottom: 2rem;">Solicită o Programare</h3>
+                    <form id="appointmentForm">
+                        <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                            <div class="form-group">
+                                <label for="nume">Nume Complet</label>
+                                <input type="text" id="nume" required placeholder="Ex: Ion Popescu">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefon">Telefon</label>
+                                <input type="tel" id="telefon" required placeholder="07xx xxx xxx">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required placeholder="nume@exemplu.ro">
+                        </div>
+                        <div class="form-group">
+                            <label for="serviciu">Serviciu dorit</label>
+                            <select id="serviciu">
+                                <option value="consultatie">Consultație Inițială</option>
+                                <option value="igienizare">Detartraj & Igienizare</option>
+                                <option value="albire">Albire Profesională</option>
+                                <option value="implant">Implant Dentar</option>
+                                <option value="ortodontie">Aparat Dentar</option>
+                                <option value="altul">Alt serviciu</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mesaj">Mesaj (Opțional)</label>
+                            <textarea id="mesaj" rows="4" placeholder="Detalii suplimentare..."></textarea>
+                        </div>
+                        <button type="submit">TRIMITE SOLICITAREA</button>
+                    </form>
+                </div>
+            </div>
+
+            <div style="flex: 1; min-width: 300px;">
+                <h3 style="margin-bottom: 1.5rem;">Informații Contact</h3>
+                <div style="margin-bottom: 2rem;">
+                    <p><strong>Adresă:</strong><br>Strada Zâmbetului, Nr. 10, Sector 1, București</p>
+                </div>
+                <div style="margin-bottom: 2rem;">
+                    <p><strong>Program Clinică:</strong><br>Luni - Vineri: 09:00 - 20:00<br>Sâmbătă: 10:00 - 14:00<br>Duminică: Închis</p>
+                </div>
+                <div style="margin-bottom: 2rem;">
+                    <p><strong>Contact Direct:</strong><br>Tel: +40 712 345 678<br>Email: contact@clearsmile.ro</p>
+                </div>
+                <div style="height: 250px; background: #e0e0e0; border-radius: var(--border-radius); overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&q=80&w=600" alt="Locație ClearSmile Dental" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h4>ClearSmile Dental</h4>
+                <p>Sănătatea orală la standarde internaționale.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Link-uri Utile</h4>
+                <a href="tratamente.html">Servicii</a>
+                <a href="info-pacienti.html">Întrebări Frecvente</a>
+                <a href="recenzii.html">Recenzii</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Strada Zâmbetului, Nr. 10</p>
+                <p>București, România</p>
+                <p>+40 712 345 678</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

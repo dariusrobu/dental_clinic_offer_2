@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recenzii | ClearSmile Dental</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .review-card {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--card-shadow);
+            margin-bottom: 2rem;
+            border-left: 5px solid var(--primary-teal);
+        }
+        .review-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .review-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--primary-teal-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--primary-teal);
+        }
+        .review-info h4 {
+            margin-bottom: 0.2rem;
+            color: var(--text-dark);
+        }
+        .stars {
+            color: #f1c40f;
+            font-size: 0.9rem;
+        }
+        .review-content {
+            font-style: italic;
+            color: var(--text-light);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            ClearSmile
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="tratamente.html">Tratamente</a></li>
+            <li><a href="despre-noi.html">Despre Noi</a></li>
+            <li><a href="info-pacienti.html">Info Pacienți</a></li>
+            <li><a href="recenzii.html" class="active">Recenzii</a></li>
+            <li><a href="contact.html" class="btn-appointment">Programare</a></li>
+        </ul>
+    </nav>
+
+    <header class="container" style="text-align: center; padding-bottom: 2rem;">
+        <h1>Ce spun pacienții noștri</h1>
+        <p>Părerea ta contează pentru noi. Iată câteva dintre experiențele celor care ne-au trecut pragul.</p>
+    </header>
+
+    <section class="container" style="max-width: 800px;">
+        <div class="review-card">
+            <div class="review-header">
+                <div class="review-avatar">AI</div>
+                <div class="review-info">
+                    <h4>Andrei Ionescu</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            <p class="review-content">"O experiență extraordinară! Personalul este foarte amabil, iar domnul doctor a explicat totul cu răbdare. Clinica este modernă și extrem de curată. Recomand cu drag!"</p>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header">
+                <div class="review-avatar">MV</div>
+                <div class="review-info">
+                    <h4>Maria Vasilescu</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            <p class="review-content">"Am avut mereu frică de dentist, dar la ClearSmile m-am simțit relaxată de la prima vizită. Tratamentul a fost fără durere, iar rezultatul este perfect."</p>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header">
+                <div class="review-avatar">CP</div>
+                <div class="review-info">
+                    <h4>Cristian Popa</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            <p class="review-content">"Profesionalism la cel mai înalt nivel. Am făcut un implant dentar și totul a decurs impecabil. Tehnologia folosită chiar face diferența."</p>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header">
+                <div class="review-avatar">EL</div>
+                <div class="review-info">
+                    <h4>Elena Lazăr</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            <p class="review-content">"Cea mai bună clinică din oraș! Mi-am adus și copiii aici și au fost foarte încântați. Mulțumim echipei ClearSmile!"</p>
+        </div>
+    </section>
+
+    <section class="container" style="text-align: center; background: var(--primary-teal-light); border-radius: 30px; margin-bottom: 4rem;">
+        <div style="padding: 3rem;">
+            <h2>Vrei să ne lași o recenzie?</h2>
+            <p>Feedback-ul tău ne ajută să devenim mai buni în fiecare zi.</p>
+            <a href="contact.html" class="btn-appointment" style="text-decoration: none; display: inline-block; margin-top: 1rem;">Contactează-ne</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h4>ClearSmile Dental</h4>
+                <p>Sănătatea orală la standarde internaționale.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Link-uri Utile</h4>
+                <a href="tratamente.html">Servicii</a>
+                <a href="info-pacienti.html">Întrebări Frecvente</a>
+                <a href="recenzii.html">Recenzii</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Strada Zâmbetului, Nr. 10</p>
+                <p>București, România</p>
+                <p>+40 712 345 678</p>
+            </div>
+        </div>
+        <div style="text-align: center; padding-top: 3rem; color: #636e72; font-size: 0.9rem;">
+            &copy; 2026 ClearSmile Dental. Toate drepturile rezervate.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
