@@ -12,6 +12,11 @@
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
             ClearSmile
         </a>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <ul class="nav-links">
             <li><a href="index.html">Acasă</a></li>
             <li><a href="tratamente.html">Tratamente</a></li>
@@ -22,20 +27,20 @@
         </ul>
     </nav>
 
-    <section class="container hero" style="min-height: auto; padding: 4rem 5%;">
+    <section class="container hero" style="min-height: auto;">
         <div class="hero-content">
             <h2>Ești la un pas de zâmbetul tău ideal</h2>
-            <p>Completează formularul de mai jos și echipa noastră te va contacta în cel mai scurt timp pentru a confirma programarea.</p>
+            <p>Completează formularul de mai jos și echipa noastră te va contacta în cel mai scurt timp pentru a confirmar programarea.</p>
         </div>
     </section>
 
     <section class="container">
-        <div style="display: flex; flex-wrap: wrap; gap: 4rem;">
-            <div style="flex: 1.5; min-width: 320px;">
+        <div class="flex-group">
+            <div class="flex-item" style="flex: 1.5;">
                 <div class="card">
                     <h3 style="margin-bottom: 2rem;">Solicită o Programare</h3>
                     <form id="appointmentForm">
-                        <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                        <div class="form-grid cols-2">
                             <div class="form-group">
                                 <label for="nume">Nume Complet</label>
                                 <input type="text" id="nume" required placeholder="Ex: Ion Popescu">
@@ -69,7 +74,7 @@
                 </div>
             </div>
 
-            <div style="flex: 1; min-width: 300px;">
+            <div class="flex-item">
                 <h3 style="margin-bottom: 1.5rem;">Informații Contact</h3>
                 <div style="margin-bottom: 2rem;">
                     <p><strong>Adresă:</strong><br>Strada Zâmbetului, Nr. 10, Sector 1, București</p>
